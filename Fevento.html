@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    document.write('<h1 id="titulo">Mi primera página</h1>');
+    document.write('<button id="boton">Cambiar texto</button>');
+
+    let boton = document.getElementById("boton");
+    let titulo = document.getElementById("titulo");
+
+    boton.addEventListener("click", function() {
+      titulo.textContent = "¡aprendiendo JavaScript!";
+    });
+  </script>
+
+<br><br>
+    
+    <style>
+
+  .volver {
+    display: inline-block;
+    background: #2c3e50;
+    color: white;
+    padding: 8px 14px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: Arial;
+  }
+</style>
+
+<a class="volver" href="index.html">← regresar al menu</a>
+
+</body>
+</html>

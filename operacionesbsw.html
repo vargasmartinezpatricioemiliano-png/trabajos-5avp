@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let n1 = Number (prompt("Escribe el pimer numero:"));
+        let n2 = Number (prompt("Escribe el segundo numero:"));
+        let op = prompt ("Elige una opcion: 1=suma, 2=resta, 3=multiplicacion, 4=divicion");
+
+        switch(op){
+            case "1":
+                alert ("suma:" + (n1 + n2));
+                break;
+            case "2":
+                alert ("resta:" + (n1 - n2));
+                break;
+            case "3":
+                alert ("multiplicacion:" + (n1 * n2));
+                break;
+            case "4":
+                alert ("divicion:" + (n1 / n2));
+                break;
+        }
+    </script>
+
+    <br><br>
+    
+    <style>
+
+  .volver {
+    display: inline-block;
+    background: #2c3e50;
+    color: white;
+    padding: 8px 14px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: Arial;
+  }
+</style>
+
+<a class="volver" href="index.html">← regresar al menu</a>
+
+</body>
+</html>

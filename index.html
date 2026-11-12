@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PRÁCTICAS</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #f6d365 0%, #fda085 50%, #a1c4fd 100%);
+      background-attachment: fixed;
+      margin: 0;
+      padding: 0;
+      color: #2d3436;
+    }
+    .encabezado {
+      background: linear-gradient(120deg, #6c5ce7, #e84393, #fd79a8);
+      color: white;
+      text-align: center;
+      padding: 35px 15px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    }
+    .encabezado h1 {
+      margin: 0;
+      font-size: 28px;
+      letter-spacing: 0.5px;
+    }
+    .encabezado p {
+      margin: 8px 0 0 0;
+      color: #ffeaa7;
+      font-weight: bold;
+      font-size: 15px;
+    }
+    .contenido {
+      max-width: 680px;
+      margin: 25px auto;
+      padding: 0 15px 30px 15px;
+    }
+    .seccion {
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 14px;
+      padding: 18px 22px;
+      margin-bottom: 22px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+      border-top: 6px solid #6c5ce7;
+    }
+    h2 {
+      margin: 0 0 14px 0;
+      font-size: 19px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 10px;
+    }
+    li a {
+      display: block;
+      text-decoration: none;
+      padding: 11px 14px;
+      border-radius: 8px;
+      font-weight: bold;
+      font-size: 14px;
+      text-align: center;
+      transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease, color 0.2s ease;
+    }
+    li a:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
+      color: white !important;
+    }
+
+   
+    .sec-basicos { border-top-color: #6c5ce7; }
+    .sec-basicos h2 { color: #6c5ce7; }
+    .sec-basicos li a { background: #efedff; color: #5344c7; }
+    .sec-basicos li a:hover { background: linear-gradient(135deg, #6c5ce7, #a29bfe); }
+
+ 
+    .sec-mate { border-top-color: #ff6b6b; }
+    .sec-mate h2 { color: #ee5253; }
+    .sec-mate li a { background: #ffecec; color: #d63031; }
+    .sec-mate li a:hover { background: linear-gradient(135deg, #ff6b6b, #ff9f43); }
+
+   
+    .sec-condicionales { border-top-color: #00b894; }
+    .sec-condicionales h2 { color: #009477; }
+    .sec-condicionales li a { background: #e3fcf7; color: #008066; }
+    .sec-condicionales li a:hover { background: linear-gradient(135deg, #00b894, #00cec9); }
+
+   
+    .sec-funciones { border-top-color: #0984e3; }
+    .sec-funciones h2 { color: #0984e3; }
+    .sec-funciones li a { background: #e6f4ff; color: #0666b3; }
+    .sec-funciones li a:hover { background: linear-gradient(135deg, #0984e3, #74b9ff); }
+
+    
+    .sec-dom { border-top-color: #e84393; }
+    .sec-dom h2 { color: #d63078; }
+    .sec-dom li a { background: #ffeaf4; color: #b82566; }
+    .sec-dom li a:hover { background: linear-gradient(135deg, #e84393, #fd79a8); }
+  </style>
+</head>
+<body>
+
+  <div class="encabezado">
+    <h1> Prácticas de JavaScript</h1>
+    <p>practicas en clase</p>
+  </div>
+
+  <div class="contenido">
+
+    <div class="seccion sec-basicos">
+      <h2>Inicio y Básicos</h2>
+      <ul>
+        <li><a href="aprendojsp.html">Aprendo JS</a></li>
+        <li><a href="mensaje.html">Mensaje</a></li>
+        <li><a href="clase.html">Clase</a></li>
+        <li><a href="ciudadano.html">Ciudadano</a></li>
+        <li><a href="estudiante.html">Estudiante</a></li>
+        <li><a href="semestre.html">Semestre</a></li>
+      </ul>
+    </div>
+
+    <div class="seccion sec-mate">
+      <h2>Operaciones </h2>
+      <ul>
+        <li><a href="suma.html">Suma</a></li>
+        <li><a href="resta.html">Resta</a></li>
+        <li><a href="multiplicacion.html">Multiplicación</a></li>
+        <li><a href="division.html">División</a></li>
+        <li><a href="promedio.html">Promedio</a></li>
+        <li><a href="dosNumerosM.html">Dos Números</a></li>
+        <li><a href="operacionesB.html">Operaciones Básicas</a></li>
+        <li><a href="operacionesBsw.html">Operaciones con Switch</a></li>
+      </ul>
+    </div>
+
+    <div class="seccion sec-condicionales">
+      <h2>Condicionales</h2>
+      <ul>
+        <li><a href="condicional.html">Condicional</a></li>
+        <li><a href="positivonegativo.html">Positivo o Negativo</a></li>
+      </ul>
+    </div>
+
+    <div class="seccion sec-funciones">
+      <h2>Funciones</h2>
+      <ul>
+        <li><a href="declarada.html">Función Declarada</a></li>
+        <li><a href="declaracion.html">Declaración</a></li>
+        <li><a href="anonima.html">Función Anónima</a></li>
+        <li><a href="parametros.html">Parámetros</a></li>
+        <li><a href="parametrosG.html">Parámetros G</a></li>
+        <li><a href="return.html">Return</a></li>
+        <li><a href="Flecha.html">Función Flecha</a></li>
+        <li><a href="Frecursiva.html">Función Recursiva</a></li>
+      </ul>
+    </div>
+
+    <div class="seccion sec-dom">
+      <h2>Eventos y DOM</h2>
+      <ul>
+        <li><a href="boton.html">Botón</a></li>
+        <li><a href="botonD.html">Botón B</a></li>
+        <li><a href="Fevento.html">Función Evento</a></li>
+        <li><a href="inner.html">Inner</a></li>
+        <li><a href="imageninner.html">Imagen Inner</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+</body>
+</html>
